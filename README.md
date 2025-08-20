@@ -73,7 +73,7 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 
 ---
 
-## 📈 Roadmap
+## 📈 Future Enhancements
 
 * Add recurring expenses & income support
 * Add PDF report export option
