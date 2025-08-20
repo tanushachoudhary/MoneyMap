@@ -1,4 +1,4 @@
-# 💰 MoneyMap – Expense Tracker App 
+# 💰📊 MoneyMap – Expense Tracker App 
 
 A **full-stack expense tracker application** built with the **MERN stack (MongoDB, Express, React, Node.js)**.  
 The app helps users manage their income and expenses, visualize spending patterns with charts, and export reports in Excel format.  
@@ -23,12 +23,12 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, TailwindCSS  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB (Mongoose ORM)  
-- **Authentication**: JWT (JSON Web Tokens)  
+- **Frontend**: React, Vite, Tailwind CSS, Recharts, Axios, React Router, Emoji Picker
+- **Backend**: Node.js, Express, MongoDB, Mongoose, JWT, Multer, XLSX
+- **Authentication**: JWT (JSON Web Tokens)
+- **File Uploads**: Multer (for profile images)
 - **Visualization**: Chart.js / Recharts  
-- **Export**: ExcelJS  
+- **Excel Export**: XLSX, ExcelJS
 
 ---
 
