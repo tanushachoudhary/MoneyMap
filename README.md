@@ -1,4 +1,4 @@
-# 💰 MoneyMap – Expense Tracker App 
+# 💰📊 MoneyMap – Expense Tracker App 
 
 A **full-stack expense tracker application** built with the **MERN stack (MongoDB, Express, React, Node.js)**.  
 The app helps users manage their income and expenses, visualize spending patterns with charts, and export reports in Excel format.  
