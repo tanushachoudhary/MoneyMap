@@ -37,10 +37,10 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/moneymap-expense-tracker.git
-   cd moneymap-expense-tracker
-````
+   cd moneymap-expense-tracker```
 
 2. **Backend Setup**
+
 
    ```bash
    cd backend
@@ -98,13 +98,4 @@ Contributions are welcome!
 ## 📜 License
 
 This project is licensed under the **MIT License** – feel free to use and modify.
-
----
-
-## 📬 Contact
-
-* **Author**: Your Name
-* **Email**: [your.email@example.com](mailto:your.email@example.com)
-* **GitHub**: [your-username](https://github.com/your-username)
-
 
