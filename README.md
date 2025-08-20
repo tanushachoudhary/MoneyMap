@@ -37,7 +37,7 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/moneymap-expense-tracker.git
-   cd moneymap-expense-tracker```
+   cd moneymap-expense-tracker
 
 2. **Backend Setup**
 
