@@ -70,7 +70,6 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 
 ## 📊 Screenshots
 
-(Add screenshots of **Dashboard, Charts, Reports Export** for better presentation)
 
 ---
 
