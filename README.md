@@ -75,10 +75,10 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 
 ## 📈 Roadmap
 
-* [ ] Add recurring expenses & income support
-* [ ] Add PDF report export option
-* [ ] Add dark mode support
-* [ ] Enable multi-user collaboration
+* Add recurring expenses & income support
+* Add PDF report export option
+* Add dark mode support
+* Enable multi-user collaboration
 
 ---
 
