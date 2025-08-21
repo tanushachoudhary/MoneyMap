@@ -38,10 +38,31 @@ exports.registerUser = async (req, res) => {
   } catch (error) {
     res
       .status(500)
-      .json({ message: "Error registering user", error: err.message });
+      .json({ message: "Error registering user", error: error.message });
   }
 };
 //login user
-exports.loginUser = async (req, res) => {};
-//register user
+exports.loginUser = async (req, res) => {
+  const { email, password } = req.body;
+  if (!email || !password) {
+    return res.status(400).json({ message: "All fields are required" });
+  }
+  try {
+    const user = await User.findOne({ email });
+    if (!user || !(await user.comparePassword(password))) {
+      return res.status(400).json({ message: "Invalid credentials" });
+    }
+    res.status(200).json({
+      id: user._id,
+      user,
+      token: generateToken(user._id),
+    });
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: "Error registering user", error: error.message });
+  }
+};
+
+//get user info
 exports.getUserInfo = async (req, res) => {};
