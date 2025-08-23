@@ -4,6 +4,8 @@ A **full-stack expense tracker application** built with the **MERN stack (MongoD
 The app helps users manage their income and expenses, visualize spending patterns with charts, and export reports in Excel format.  
 It also includes **secure authentication** and a **responsive UI** for seamless usage across devices.
 
+<img width="1892" height="865" alt="Screenshot 2025-08-23 215513" src="https://github.com/user-attachments/assets/3eb57585-ea3f-4ff0-8d49-66c1d4194694" />
+
 ---
 
 ## 🚀 Features
@@ -70,8 +72,17 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 
 ## 📊 Screenshots
 
+<img width="1913" height="866" alt="Screenshot 2025-08-23 215607" src="https://github.com/user-attachments/assets/f889a059-8565-46b5-9714-8f5dee9b9c08" />
+<img width="1892" height="865" alt="Screenshot 2025-08-23 215513" src="https://github.com/user-attachments/assets/f2b58844-d234-4697-a6ab-299b2d53e544" />
+<img width="1894" height="871" alt="Screenshot 2025-08-23 215557" src="https://github.com/user-attachments/assets/acea6722-8474-4b0a-91f3-e81502302797" />
+<img width="1893" height="865" alt="Screenshot 2025-08-23 215546" src="https://github.com/user-attachments/assets/8ecd5322-3f27-4ad5-a275-aa1826aed581" />
+<img width="1896" height="868" alt="Screenshot 2025-08-23 215536" src="https://github.com/user-attachments/assets/dacf9a39-a287-4104-b007-3cf2f7c2104e" />
+<img width="1895" height="848" alt="Screenshot 2025-08-23 215527" src="https://github.com/user-attachments/assets/fab4b3ec-ca74-4403-9051-468bc8686192" />
+
 
 ---
+
+
 
 ## 📈 Future Enhancements
 
