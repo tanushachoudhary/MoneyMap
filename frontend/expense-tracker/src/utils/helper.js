@@ -1,3 +1,4 @@
+import moment from "moment";
 // /^[^\s@]+@[^\s@]+\.[^\s@]+$/ checks:
 // at least one non-space, non-@ character before @
 // then an @
