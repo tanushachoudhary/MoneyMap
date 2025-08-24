@@ -79,13 +79,14 @@ const SignUp = () => {
         <form onSubmit={handleSignUp}>
           <ProfilePhotoSelector image={profilePic} setImage={setProfilePic} />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <Input
               value={fullName}
               onChange={({ target }) => setFullName(target.value)}
               label="Full Name"
               placeholder="John"
               type="text"
+              className="w-full"
             />
             <Input
               value={email}
@@ -93,17 +94,20 @@ const SignUp = () => {
               label="Email Address"
               placeholder="john@example.com"
               type="text"
+              className="w-full"
             />
-            <div className="col-span-2">
+            <div className="col-span-1 sm:col-span-2">
               <Input
                 value={password}
                 onChange={({ target }) => setPassword(target.value)}
                 label="Password"
                 placeholder="Min 8 Characters"
                 type="password"
+                className="w-full"
               />
             </div>
           </div>
+
           {error && <p className="text-red-500 text-xs pb-2.5">{error}</p>}
           <button type="submit" className="btn-primary">
             SIGN UP
