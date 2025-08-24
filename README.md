@@ -29,7 +29,7 @@ It also includes **secure authentication** and a **responsive UI** for seamless 
 - **Backend**: Node.js, Express, MongoDB, Mongoose, JWT, Multer, XLSX
 - **Authentication**: JWT (JSON Web Tokens)
 - **File Uploads**: Multer (for profile images)
-- **Visualization**: Chart.js / Recharts  
+- **Visualization**: Recharts  
 - **Excel Export**: XLSX, ExcelJS
 
 ---
