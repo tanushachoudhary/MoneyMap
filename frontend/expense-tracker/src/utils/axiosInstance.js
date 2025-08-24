@@ -1,8 +1,8 @@
 import axios from "axios";
-import { BASE_URL } from "./apiPaths";
+// import { BASE_URL } from "./apiPaths";
 
 const axiosInstance = axios.create({
-  baseURL: BASE_URL,
+  baseURL: "https://moneymap-backend-al1s.onrender.com",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
@@ -20,7 +20,7 @@ axiosInstance.interceptors.request.use(
     return config;
   },
   (error) => {
-    return Promise.rejecct(error);
+    return Promise.reject(error);
   }
 );
 
