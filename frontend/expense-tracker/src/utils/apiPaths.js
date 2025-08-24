@@ -26,3 +26,24 @@ export const API_PATHS = {
     UPLOAD_IMAGE: "/api/v1/auth/upload-image",
   },
 };
+
+/*
+This code defines a single source of truth for all API endpoints used in an application. It's a best practice that prevents you from hardcoding URLs throughout your codebase, making it much easier to manage and update them. 🗺️
+
+***
+
+## `BASE_URL`
+
+The **`BASE_URL`** is the root URL of the backend server. All API requests will be sent to this base URL, with a specific path appended to it. For example, a login request would go to `https://moneymap-backend-al1s.onrender.com/api/v1/auth/login`.
+
+***
+
+## `API_PATHS`
+
+The **`API_PATHS`** object organizes all the different endpoints into logical, nested categories, such as `AUTH` for authentication, `INCOME` for income-related actions, and `EXPENSE` for expense-related ones.
+
+This object uses two main patterns for defining paths:
+
+1.  **Static Paths**: Most paths are simple strings that represent a fixed endpoint, like `AUTH.LOGIN`.
+2.  **Dynamic Paths**: For endpoints that require a unique identifier (like an ID), the path is defined as a **function**. This is a very robust design pattern. For example, `INCOME.DELETE_INCOME` is a function that takes an `incomeId` and returns a complete, ready-to-use URL string, such as `/api/v1/income/123`. This ensures the correct ID is always included in the request URL.
+*/
